@@ -1,8 +1,5 @@
 import axios from 'axios';
 
-// The proxy in package.json will automatically handle redirecting these requests
-// to http://localhost:5000. For example, a request to '/rfps' will go to
-// 'http://localhost:5000/rfps'.
 
 // RFP Endpoints
 export const getAllRfps = () => axios.get('/rfps');
