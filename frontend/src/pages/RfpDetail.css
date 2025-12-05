@@ -1,0 +1,133 @@
+.rfp-detail {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.section {
+  margin-top: 2.5rem;
+  border-top: 1px solid #eee;
+  padding-top: 1.5rem;
+}
+
+/* --- Header --- */
+.rfp-view-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+.rfp-view-header h2 {
+  margin: 0;
+}
+
+/* --- Create Form --- */
+.rfp-create-form h2 {
+  margin-top: 0;
+}
+.rfp-create-form p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+.rfp-create-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+/* --- Detail View --- */
+.rfp-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.summary-item {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+.summary-item h4 {
+  margin: 0 0 0.5rem 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+.summary-item p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* --- Tables --- */
+.items-table, .proposals-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+.items-table th, .items-table td, .proposals-table th, .proposals-table td {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.items-table th, .proposals-table th {
+  background-color: #f2f2f2;
+}
+
+/* --- Vendor List --- */
+.vendor-list {
+  margin: 1.5rem 0;
+}
+.vendor-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.vendor-item:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+.vendor-item input[type="checkbox"] {
+  margin-right: 1rem;
+  width: 18px;
+  height: 18px;
+}
+.vendor-item label {
+  cursor: pointer;
+}
+
+/* --- Recommendation Section --- */
+.recommendation-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+.ai-recommendation {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  text-align: left;
+}
+.ai-recommendation h4 {
+  margin-top: 0;
+  color: #343a40;
+}
+.ai-recommendation p {
+  line-height: 1.6;
+}
+.ai-recommendation p strong {
+  color: #495057;
+}

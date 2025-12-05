@@ -1,0 +1,130 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.rfp-section {
+  /* Styles for the RFP list area */
+}
+
+.vendor-section {
+  background-color: #f8f9fa;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.vendor-section h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.rfp-list {
+  list-style: none;
+  padding: 0;
+}
+
+.rfp-item a {
+  display: block;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.rfp-item a:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.rfp-item h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.rfp-item p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.status {
+  font-weight: bold;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.status-draft {
+  background-color: #888;
+}
+
+.status-sent {
+  background-color: #3498db;
+}
+
+.status-completed {
+  background-color: #2ecc71;
+}
+
+/* Vendor Management Styles */
+.add-vendor-form {
+  margin-top: 1.5rem;
+}
+
+.add-vendor-form h3 {
+  margin-bottom: 1rem;
+}
+
+.add-vendor-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.add-vendor-form input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.add-vendor-form .btn {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.add-vendor-form .btn:hover {
+  background-color: #27ae60;
+}
+
+.vendor-master-list {
+  margin-top: 2rem;
+}
+
+.vendor-master-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.vendor-master-list li {
+  padding: 0.6rem;
+  border-bottom: 1px solid #eee;
+}
